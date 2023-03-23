@@ -12,8 +12,8 @@ This project accomplishs the following functions
 4. *Recommend the emails received are in Plain-Text Only
 5. Text-Before is defined in $header1 or $header2
 6. Text-After is defined in $footer1 or footer2
-7.  You can either input these settings in the command-line or set in
-    the user_settings.json the following:
+7.  You will be asked to input settings in the command-line or 
+    set alternatively you can set these settings in the user_settings.json.
     SendFrom:
     SendTo:
     SMTP:
