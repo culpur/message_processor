@@ -1,14 +1,16 @@
-# Email Message Processor v2.0.6.3 - User Settings File
-# Written by Culpur.net
-# Free to use Licensed under GNU GPLv3
-# Need Help contact us msgpro [at] culpur.net
-# Script last updated on 23.03.2023 at 20:27
-
 {
     "SendFrom": "email@email.com",
     "SendTo": "email@email.com",
     "Smtp": "smtp.gmail.com",
     "Encryption": "Unencrypted",
     "Interval": 1,
-    "RI": ""
+    "RI": "",
+    },
+  "comments": {
+    "description": "Email Message Processor v2.0.6.3 - User Settings File",
+    "author": "Written by Culpur.net",
+    "license": "Free to use, Licensed under GNU GPLv3"
+    "questions": "Need Help, contact us at msgpro [at] culpur.net"
+    "last update": "Script last updates on 23.03.2023 [at] 20:27
+  }
 }
