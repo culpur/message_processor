@@ -7,7 +7,8 @@
     "RI": "",
     },
   "comments": {
-    "description": "Email Message Processor v2.0.6.3 - User Settings File",
+    "description": "Email Message Processor - User Settings File",
+    "version": "v2.0.6.3",
     "author": "Written by Culpur.net",
     "license": "Free to use, Licensed under GNU GPLv3"
     "questions": "Need Help, contact us at msgpro [at] culpur.net"
