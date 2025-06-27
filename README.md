@@ -24,3 +24,21 @@ This project accomplishs the following functions
     user_settings.json
 9.  Performs regular clean on Parent Folder and deletes any messages
     older than 2 days   
+
+---
+
+## Node.js Version
+
+`message_processor.js` is an Express based server that keeps a persistent
+IMAP session and periodically forwards unseen messages. Install the
+dependencies and start the server with Node.js:
+
+```bash
+npm install
+node message_processor.js
+```
+
+The script reads `user_settings.json` for defaults and prompts for any
+missing values before scanning the mailbox at the configured interval.
+Once running, the server listens on port 3000 and exposes a `/status`
+endpoint to confirm it is alive.
